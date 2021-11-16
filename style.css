@@ -60,10 +60,11 @@ p {
 
 button {
   width: 120px;
-  padding: 3px;
+  padding: 9px;
   background-color: #3882f6;
   color: #f9faf8;
   border-radius: 8px;
+  border: none;
 }
 
 .big-img {
