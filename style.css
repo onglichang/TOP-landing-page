@@ -11,7 +11,7 @@ body {
   height: 50px;
   display: flex;
   justify-content: space-between;
-  padding: 12px;
+  padding: 20px 150px;
   background-color: #1f2937;
   align-items: center;
 }
@@ -31,4 +31,42 @@ a {
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.blue-container {
+  display: flex;
+  height: 400px;
+  background-color: #1f2937;
+  padding: 20px 150px;
+  justify-content: space-between;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  /* padding: 20px 280px 40px 0px; */
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  width: 120px;
+  padding: 3px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+}
+
+.big-img {
+  width: 500px;
+  height: 300px;
 }
